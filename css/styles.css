@@ -735,3 +735,26 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
+
+/* Plans Block */
+
+.plan {
+  transition: transform 0.2s ease-out;
+}
+
+.block-plan .grid {
+  gap: 8rem 4rem;
+}
+
+.block-plan .card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.plan--popular {
+  transform: scale(1.1);
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
